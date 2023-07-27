@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greeting.common.v1;
 
-option go_package = "github.com/go_grpc_miniproject/pkg/pb/greeting/common/v1;common_v1";
+option go_package = "github.com/go-grpc-miniproject/pkg/pb/greeting/common/v1;common_v1";
 
 message Message {
     enum Greeter {

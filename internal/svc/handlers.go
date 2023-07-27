@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	pb "github.com/go_grpc_miniproject/pkg/pb/greeting/v1"
+	pb "github.com/go-grpc-miniproject/pkg/pb/greeting/v1"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

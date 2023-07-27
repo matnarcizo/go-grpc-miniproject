@@ -1,3 +1,3 @@
-module go_grpc_miniproject
+module go-grpc-miniproject
 
 go 1.20

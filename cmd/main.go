@@ -1,15 +1,15 @@
 package main
 
 import (
-	"go_grpc_miniproject/internal/svc"
-	greeting_v1 "go_grpc_miniproject/pkg/pb/greeting/v1"
+	"go-grpc-miniproject/internal/svc"
+	greeting_v1 "go-grpc-miniproject/pkg/pb/greeting/v1"
 	"net"
 	"os"
 	"os/signal"
 	"syscall"
 
-	"github.com/{{YOUR_REPO}}/internal/svc"
-	greeting_v1 "github.com/{{YOUR_REPO}}/pkg/pb/greeting/v1"
+	"github.com/go-grpc-miniproject/internal/svc"
+	greeting_v1 "github.com/go-grpc-miniproject/pkg/pb/greeting/v1"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )
